@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+div > img{
+  text-align: center;
+  width: 100px;
+  height: auto;
+}
+.menu > ul > li{
+  display: inline-block;
+}
+input{
+  position: absolute;
+  top: 100px;
+  right: 30px;
+}
+header, footer {
+  padding: 10px;
+  text-align: center;
+  
+}
+main {
+  position: relative;
+}
+.all-products{
+  position: absolute;
+  top: 100px;
+}
+ul{
+  list-style-type: none;
+}
+aside {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+}
+img{
+  display: inline-block;
+}
+article img{
+  width: 300px;
+}
+article{
+  display: inline-block;
+}
+section{
+  position: absolute;
+  left: 200px;
+}
+footer{
+  padding: 20px; 
+  text-align: center; 
+  width: 100%; 
+  position: fixed; 
+  bottom: 0; 
+  background-color: rgb(211, 211, 211);
+}
+footer li{
+  display: inline-block;
+  margin-right: 10px;
+}
+a{
+  color: black;
+  text-decoration-line: none;
+}
+a button{
+  position: fixed;
+  top: 85%;
+  right: 5%;
+  background-color: #ff8800;
+}
+input[type=button]{
+  background-color: #ff8800;
+}
+div button{
+  background-color: #ff8800;
+}
+#products-filter{
+  background-color: lightgray;
+  height: 60px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+#products-filter div a{
+  padding-top: 20px;
+  padding-left: 5px;
+}
+#load-more-products{
+  text-align: center;
+  position: relative;
+  bottom: 120px;
+  width: 100%;
+  margin-left: -90px;
+}
+a:hover{
+  color: #db7603;
+  text-decoration: underline;
+}
+footer ul li:hover{
+  color: black;
+  text-decoration: underline;
+}
+section div a:hover{
+  color: black;
+  text-decoration: underline;
+}
